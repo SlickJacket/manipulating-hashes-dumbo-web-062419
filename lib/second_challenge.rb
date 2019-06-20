@@ -10,7 +10,7 @@ def second_challenge
   array = groceries.values
   array2 = []
   array.collect do|x|
-    puts array2 << x
+    array2 << x
   end
   return array2
 

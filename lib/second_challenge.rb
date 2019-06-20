@@ -8,7 +8,8 @@ def second_challenge
 
   array = []
   array2 = []
-  groceries.values.collect do|x|
+  groceries.values
+  values.collect do|x|
     array << x
   end
   return array

@@ -6,14 +6,9 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  array = []
-  array2 = []
-  array2 << groceries.values
-  array2.each do|x|
-    array << x
-  end
-  return array
 
+  array = groceries.values
+  return array
 
 
 end

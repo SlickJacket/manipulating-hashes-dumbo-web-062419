@@ -6,8 +6,13 @@ def second_challenge
    grains: ["rice", "pasta"]
   }
 
-  #code your solution here!
+  array = []
+  array2 = []
+  groceries.values.collect do|x|
+    array << x
+  end
+  return array
 
-  
+
 
 end

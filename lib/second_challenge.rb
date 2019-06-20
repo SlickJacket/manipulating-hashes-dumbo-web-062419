@@ -7,12 +7,9 @@ def second_challenge
   }
 
 
-  array = groceries.values
-  array2 = []
-  array.collect do|x|
-    array2 << x
-  end
-  return array2.flatten
+  flatArray = groceries.values
+
+  return flatArray.flatten
 
 
 end

@@ -12,7 +12,7 @@ def second_challenge
   array.collect do|x|
     array2 << x
   end
-  return array2
+  return array2.flatten
 
 
 end
